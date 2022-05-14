@@ -1,0 +1,135 @@
+root {
+    --border-radius: 25px ;
+
+}
+
+* {
+    cursor: cell;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+    color: chartreuse;
+}
+body {
+    background-color: black;
+    font-family:Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+}
+h1 h2 {
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+}
+p {
+    color: chartreuse;
+    font-size: 15px;
+}
+@media screen and (min-width: 770px) { 
+.header {
+    padding: 20px 0;
+    color: chartreuse;
+    background-image: url("UFO.gif") ;
+    background-size: cover;
+    background-position: center;
+}
+}
+.contactdrop {
+    display: none;
+    position:absolute;
+    background-color: black;
+    box-sizing:border-box ;
+    border-style: dotted;
+    border-color: chartreuse;
+}
+.contact:hover .contactdrop {
+    display:block;
+    display:flow-root ;
+}
+header {
+    font-size: 20px;
+    color: chartreuse;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    color: chartreuse;
+}
+.header nav {
+    padding-top: auto;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+}
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: chartreuse;
+    font-size: 15px;
+}
+
+.content {
+    height: 800px;
+    width: cover;
+    margin-bottom: 25px;
+    background-size: cover;
+
+}
+.Window {
+    margin-bottom: 20px;
+    height: 300px;
+    border-style: solid;
+    border-color: chartreuse;
+    padding: 40px;
+    background-size: cover;
+}
+.Window img{
+    width: 200px;
+    float: left;
+}
+.Window p {
+    display: flex;
+    flex-wrap: inherit;
+}
+.Window2 {
+    margin-bottom: 20px;
+    height: 300px;
+    padding: 40px;
+    border-style: solid;
+    border-color: chartreuse;
+    background-size: cover;
+}
+.Window2 img{
+    width: 200px;
+    float: left;
+}
+.Window2 h2 {
+    font-size: 15px;
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+    
+}
+.workdrop {
+    display: none;
+    position:absolute;
+    background-color: black;
+    box-sizing:border-box ;
+    border-style: dotted;
+    border-color: chartreuse;
+}
+.work:hover .workdrop {
+    display:block;
+    display:contents ;
+}
+.Window3 {
+    margin-bottom: 20px;
+    height: 300px;
+    padding: 40px;    
+    border-style: solid;
+    border-color: chartreuse;
+    background-size: cover;
+}
+footer {
+padding: 20px;
+text-align: center;
+color: chartreuse;
+font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+}
