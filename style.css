@@ -1,6 +1,6 @@
 root {
     --border-radius: 25px ;
-
+    --color: chartreuse;
 }
 
 * {
@@ -30,7 +30,7 @@ p {
 .header {
     padding: 20px 0;
     color: chartreuse;
-    background-image: url("UFO.gif") ;
+    background-image: url("images/UFO.gif") ;
     background-size: cover;
     background-position: center;
 }
@@ -63,12 +63,11 @@ p {
 }
 header {
     font-size: 20px;
-    color: chartreuse;
 }
 .header h1 {
     display: inline-block;
     font-size: 50px;
-    color: chartreuse;
+    
 }
 .header nav {
     padding-top: auto;
@@ -149,6 +148,5 @@ a {
 footer {
 padding: 20px;
 text-align: center;
-color: chartreuse;
 font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
 }
