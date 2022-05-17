@@ -17,6 +17,10 @@ body {
 }
 h1 h2 {
     font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,sans-serif;
+
+}
+h2 {
+    font-size: 15px;
 }
 p {
     color: chartreuse;
@@ -29,6 +33,20 @@ p {
     background-image: url("UFO.gif") ;
     background-size: cover;
     background-position: center;
+}
+.headerworkdrop {
+    display: none;
+    position:absolute;
+    background-color: black;
+    box-sizing:border-box ;
+    border-style: dotted;
+    border-color: chartreuse;
+    font-size: 15px;
+}
+.workheader:hover .headerworkdrop {
+    display:block;
+    display: flow-root;
+    font-size: 15px;
 }
 }
 .contactdrop {
@@ -118,6 +136,7 @@ a {
 .work:hover .workdrop {
     display:block;
     display:contents ;
+    font-size: 15px;
 }
 .Window3 {
     margin-bottom: 20px;
